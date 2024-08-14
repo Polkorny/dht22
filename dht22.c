@@ -1,7 +1,7 @@
 #include <bcm2835.h>
 #include <stdio.h>
 
-#define DHTPIN RPI_GPIO_P1_7
+#define DHTPIN RPI_GPIO_P1_07
 
 int read_dht22_data(float *humidity, float *temperature) {
     uint8_t laststate = HIGH;
